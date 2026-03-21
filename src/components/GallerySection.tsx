@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const galleryImages = Array.from({ length: 14 }, (_, index) => ({
   src: `/gallery/${index + 1}.jpeg`,

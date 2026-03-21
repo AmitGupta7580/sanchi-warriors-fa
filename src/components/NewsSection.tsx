@@ -1,6 +1,10 @@
-import React from "react";
+type NewsItem = {
+  date: string;
+  title: string;
+  text: string;
+};
 
-const newsItems = [];
+const newsItems: NewsItem[] = [];
 
 function NewsSection() {
   return (

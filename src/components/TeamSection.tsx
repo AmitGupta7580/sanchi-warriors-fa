@@ -1,5 +1,3 @@
-import React from "react";
-
 const teamMembers = [
   { avatar: "CY", name: "Chanakya Yadav", role: "UNKNOWN" },
 ];
